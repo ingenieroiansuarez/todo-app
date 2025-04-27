@@ -2,7 +2,11 @@
 #from functions import get_todos , write_todos
 import functions
 import time
-time.strftime('%b %d, %Y,  ')
+
+now = time.strftime('%b %d, %Y %H :%M :%S ')
+print('the time is below: ')
+print('It is',now)
+
 while True:
     #get user input and strip space chars from it
     user_action = input("Type add, show, edit  or show:")
